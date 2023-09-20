@@ -19,12 +19,12 @@ public class Mostatil extends Shape {
     }
 
     public float mohit(float tool, float arz) {
-        setMohit(tool + arz * 2);
+        setMohit((tool + arz) * 2);
         return getMohit();
     }
 
     public float masahat(float tool, float arz) {
-        setMohit(tool * arz);
+        setMasahat(tool * arz);
         return getMasahat();
     }
 

@@ -1,15 +1,8 @@
 public class Circle extends Shape {
-    private float ghotr;
+
     private float shoaa;
     private final int p = 3;
 
-    public float getGhotr() {
-        return ghotr;
-    }
-
-    public void setGhotr(float ghotr) {
-        this.ghotr = ghotr;
-    }
 
     public float getShoaa() {
         return shoaa;
@@ -29,7 +22,7 @@ public class Circle extends Shape {
 
     @Override
     public float mohit() {
-        float mohit = ghotr * p;
+        float mohit = shoaa * shoaa * p;
         return mohit;
     }
 }
